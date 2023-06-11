@@ -99,10 +99,5 @@ public class SalesManagement extends JFrame {
         dateTimeLabel.setText(dateTime);
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            SalesManagement app = new SalesManagement();
-            app.setVisible(true);
-        });
-    }
+    
 }
